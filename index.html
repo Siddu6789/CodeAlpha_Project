@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALENDAR</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div class="container">
+    <from action="">
+        <div class="base">
+            <div class="enter">
+                <h4> AGE CALENDAR </h4>
+            </div>
+            <div class="block">
+                <p class="title">DATE</p>
+                <input type="text" id="date" placeholder="dd" required minlength="1" maxlength="2"  >
+            </div>
+            <div class="block">
+                <p class="title">MONTH</p>
+                <input type="text" id="month" placeholder="mm" required minlength="1" maxlength="2" >
+            </div>
+            <div class="block">
+                <p class="title">YEAR</p>
+                <input type="text" id="year" placeholder="yyyy" required  minlength="4" maxlength="4" >
+            </div>
+        </div>
+        <div class="base">
+            <div class="enter">
+                <center><button type="submit"  onclick="age()">Check</button></center>
+            </div>
+        </div>
+        <div id="age"></div>
+    </from>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
